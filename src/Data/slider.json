@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "image": "/Images/p1.svg",
+        "title": "Results Wellness Lifestyle",
+        "description": "E-commerce & Fitness Website",
+        "info": "RWL (Results Wellness Lifestyle) is een fitness- en wellnessplatform dat on-demand thuisworkouts, gepersonaliseerde maaltijdplannen en deskundige begeleiding biedt. Het biedt verschillende trainingsprogramma's, waaronder kracht, cardio, yoga en dans, samen met aanpasbare voedingsplannen en ondersteuning van de gemeenschap om gebruikers te helpen hun gezondheids- en fitnessdoelen te bereiken.",
+        "technology": "Reactjs , Nodejs",
+        "type": ""
+    },
+    {
+        "id": 2,
+        "image": "/Images/p5.svg",
+        "title": "Chaina Fab",
+        "description": "Werkzoeker mobiele applicatie",
+        "info": "Chaina Fab is een mobiele applicatie voor werkzoekenden en werkgevers, specifiek ontworpen voor de sector Kunst & Entertainment. Hier kunnen mensen artiesten, schilders, zangers etc. vinden en kunnen sommige mensen hun vereisten plaatsen terwijl anderen contact met hen opnemen via deze app.",
+        "technology": "React native, Nodejs",
+        "type": "Werkzoeker mobiele app"
+    },
+    {
+        "id": 3,
+        "image": "/Images/p3.svg",
+        "title": "AllFive",
+        "description": "Native mobiele applicatie",
+        "info": "AllFive is een platform waar gebruikers unieke ervaringen kunnen ontdekken en boeken en waar hostingpartners gecreëerde en samengestelde ervaringen kunnen aanbieden.",
+        "technology": "iOS - Swift, Android - JAVA",
+        "type": "Ticketboekingsplatform"
+    },
+    {
+        "id": 4,
+        "image": "/Images/p4.svg",
+        "title": "Goodpix",
+        "description": "Zakelijke groeisite",
+        "info": "GoodPix is een styling- en shoppingplatform dat is ontworpen voor persoonlijke stylisten om winkelbare stijlborden te maken, garderobes te digitaliseren en klantensites te beheren. Het biedt functies zoals aanpasbare lookbooks, privéklantensites en de mogelijkheid om commissies te verdienen met aanbevolen producten. GoodPix heeft als doel het stylingproces te stroomlijnen en de klantbetrokkenheid te verbeteren door middel van georganiseerde, professionele tools en bronnen.",
+        "technology": "Angular, Node",
+        "type": "E-commerce"
+    },
+    {
+        "id": 5,
+        "image": "/Images/portfolio-four.png",
+        "title": "Keatov",
+        "description": "Voedselbezorgingsapp",
+        "info": "Kosher eten & boodschappen, pizza, kip, shawarma, sushi en meer direct bij u thuis bezorgd! KEATOV brengt koosjer voedsel direct van uw favoriete koosjere restaurants.",
+        "technology": "Flutter, Nodejs",
+        "type": ""
+    },
+    {
+        "id": 6,
+        "image": "/Images/portfolio-five.png",
+        "title": "SEO optimalisatie",
+        "description": "Google Zoekoptimalisatie & Meta Ranking",
+        "type": ""
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "number": "20",
+        "plus": "+",
+        "title": "Tevreden Klanten",
+        "description": "Ons bedrijf ontvangt consistent positieve feedback van meer dan 20 tevreden klanten die hebben geprofiteerd van onze hoogwaardige diensten en resultaten."
+    },
+    {
+        "id": 2,
+        "number": "50",
+        "plus": "+",
+        "title": "Projecten",
+        "description": "Met meer dan 50 voltooide projecten op onze naam heeft ons team een schat aan ervaring en expertise in het leveren van eersteklas oplossingen voor onze klanten."
+    },
+    {
+        "id": 3,
+        "number": "10",
+        "plus": "+",
+        "title": "Deskundige Teamleden",
+        "description": "Ons bedrijf is trots op een team van meer dan 10 deskundige professionals die zich inzetten om de best mogelijke ondersteuning en resultaten te bieden voor onze klanten."
+    }
+]

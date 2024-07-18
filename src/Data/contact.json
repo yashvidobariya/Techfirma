@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "IoLocationSharp",
+        "heading": "Bezoek Onze Locatie",
+        "content": "4e verdieping, 20, Shree Nilkanth Business Hub, Causeway Rd, tegenover D-Mart, Katargam, Surat, Gujarat 395004."
+    },
+    {
+        "icon": "BiMailSend",
+        "heading": "Stuur Ons Een Email",
+        "content": "contact@techfirma.com"
+    },
+    {
+        "icon": "TbPhoneCall",
+        "heading": "Bel Ons Voor Projecten",
+        "content": "+91 97242 83087"
+    }
+]

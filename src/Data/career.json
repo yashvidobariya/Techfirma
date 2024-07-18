@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "Prioriteit van de werknemer",
+        "description": "Onze medewerkers komen op de eerste plaats. We geven prioriteit aan hun behoeften en welzijn, en zorgen voor een gezonde werk-privébalans en een ondersteunende werkcultuur.",
+        "icon": "PiUserSwitchLight"
+    },
+    {
+        "id": "2",
+        "title": "Trainingsprogramma's",
+        "description": "Toegang tot continue leer- en ontwikkelingsmogelijkheden via onze uitgebreide trainingsprogramma's die zijn ontworpen om uw vaardigheden en carrièreontwikkeling te verbeteren.",
+        "icon": "FcProcess"
+    },
+    {
+        "id": "3",
+        "title": "Positieve werkomgeving",
+        "description": "Geniet van een samenwerkende en positieve werkomgeving waar uw bijdragen worden gewaardeerd en uw professionele groei wordt bevorderd.",
+        "icon": "PiHandshakeLight"
+    },
+    {
+        "id": "4",
+        "title": "Feestelijke vieringen",
+        "description": "Doe met ons mee om verschillende festivals en evenementen gedurende het jaar te vieren, en een gevoel van gemeenschap en teamgeest te bevorderen.",
+        "icon": "MdOutlineCelebration"
+    }
+]

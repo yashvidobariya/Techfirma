@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "RiComputerLine",
+        "title": "Webontwikkeling",
+        "description": "Bouw dynamische en schaalbare websites die boeien en converteren. Onze webontwikkelingsdiensten leveren impactvolle online ervaringen."
+    },
+    {
+        "id": 2,
+        "icon": "RiAppleFill",
+        "title": "iPhone- en iPad-app",
+        "description": "Ontwikkel opvallende iOS-apps met Techfirma. Onze expertise in ontwerp en programmering zorgt voor naadloze functionaliteit en verbluffende visuals op iPhone en iPad."
+    },
+    {
+        "id": 3,
+        "icon": "TiVendorAndroid",
+        "title": "Android Applicatie",
+        "description": "Bouw dynamische en schaalbare websites die boeien en converteren. Onze webontwikkelingsdiensten leveren impactvolle online ervaringen."
+    },
+    {
+        "id": 4,
+        "icon": "SiAltiumdesigner",
+        "title": "UI/UX Ontwerp",
+        "description": "Transformeer je digitale interfaces met onze UI/UX-ontwerpexpertise. We richten ons op gebruikersonderzoek, testen en front-end ontwikkeling om intuïtieve en boeiende gebruikerservaringen te creëren."
+    }
+]

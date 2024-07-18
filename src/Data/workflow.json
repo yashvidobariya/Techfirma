@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "number": "01",
+        "icon": "Images/w1.png",
+        "title": "Conceptualisatie",
+        "description": "Werk samen met ons team om innovatieve ideeën te ontwikkelen die zijn afgestemd op uw zakelijke doelen."
+    },
+    {
+        "id": 2,
+        "number": "02",
+        "icon": "Images/w2.png",
+        "title": "Ontwerp en Codering",
+        "description": "Onze experts ontwerpen en ontwikkelen gebruiksvriendelijke oplossingen die prioriteit geven aan ervaring en functionaliteit."
+    },
+    {
+        "id": 3,
+        "number": "03",
+        "icon": "Images/w3.png",
+        "title": "Kwaliteitsborging",
+        "description": "We testen grondig om ervoor te zorgen dat uw oplossing betrouwbaar, veilig en naadloos werkt."
+    },
+    {
+        "id": 4,
+        "number": "04",
+        "icon": "Images/w4.png",
+        "title": "Livegang en Ondersteuning",
+        "description": "We lanceren uw project succesvol en bieden doorlopende ondersteuning voor optimale prestaties."
+    }
+]
