@@ -3,7 +3,9 @@ import { useParams } from 'react-router-dom';
 import servicesData from '../../src/Data/Servicepage.json';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-
+import { IoCallSharp } from "react-icons/io5";
+import { ImWhatsapp } from "react-icons/im";
+import { SiMaildotru } from "react-icons/si";
 const SingleService = () => {
     const { id } = useParams();
     const service = servicesData.find(service => service.id === id);
@@ -52,7 +54,7 @@ const SingleService = () => {
                     <div className="service-details-flex">
 
                         <div className="service-main-div">
-                            <h3>Technologieën en hulpmiddelen</h3>
+                            <h3>Technologieën & Hulpmiddelen</h3>
                             <div className="serivce-grid-details">
                                 {Object.entries(service.Technology).map(([category, details]) => (
                                     <div className='service-details-content' key={category}>
@@ -94,7 +96,6 @@ const SingleService = () => {
 
                 </div>
             </div>
-
             <motion.div
                 initial={{ y: -100, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
@@ -102,14 +103,55 @@ const SingleService = () => {
                 viewport={{ once: true }}
                 className='home-contactus' >
                 <div className="home-contactus-div" >
-                    <h3>Heeft u vereisten die u met ons wilt delen?</h3>
+                    <h2>Heeft u wensen die u met ons wilt delen?  </h2>
 
-                    <Link to="/contactus">
-                        <button>Neem contact met ons op</button>
-                    </Link>
+                    <div className="contactus-inquiry">
+                        <div className="contactus-inquiry-flex">
+                            <div className="contactus-inquiry-div">
+                                <div className="call-icon">
+                                    <IoCallSharp />
+                                </div>
+                                <div className="button-contactus">
+                                    <a href="tel:+31203086820">
+                                        <button>Bel ons</button>
+                                    </a>
+                                    <p>Ons callcenter is 24/7 bereikbar</p>
+                                    <h6>Voor direct contact</h6>
+                                </div>
+
+                            </div>
+
+                            <div className="contactus-inquiry-div">
+                                <div className="mail-icon">
+                                    <SiMaildotru />
+                                </div>
+                                <div className="button-contactus">
+                                    <a href="mailto:info@techfirma.nl">
+                                        <button>Mail ons</button>
+                                    </a>
+
+                                    <p>Stuur ons een bericht via e-mail</p>
+                                    <h6>Binnen 24 uur antwoord</h6>
+                                </div>
+                            </div>
+                            <div className="contactus-inquiry-div">
+                                <div className="whatsapp-icon">
+                                    <ImWhatsapp />
+                                </div>
+                                <div className="button-contactus">
+                                    <a href="tel:+31 6 49 35 01 76">
+                                        <button>App ons</button>
+                                    </a>
+                                    <p>Stuur ons een Whatsapp bericht</p>
+                                    <h6>Binneen 4 uur antwoord</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </motion.div>
+
+
         </div>
     );
 }

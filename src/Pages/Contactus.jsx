@@ -79,9 +79,15 @@ const Contactus = () => {
                                         {detail.icon === "BiMailSend" ? (
                                             <a href={`mailto:${detail.content}`} aria-hidden='true'>{detail.content}</a>
                                         ) : detail.icon === "TbPhoneCall" ? (
-                                            <a href={`tel:${detail.content}`} aria-hidden='true'>{detail.content}</a>
+                                            <>
+                                                <a href={`tel:${detail.content}`} aria-hidden='true'>{detail.content}</a><br />
+                                                <a href={`tel:${detail.content1}`} aria-hidden='true'>{detail.content1}</a>
+                                            </>
                                         ) : (
-                                            <p>{detail.content}</p>
+                                            <>
+                                                <p>{detail.content}</p>
+                                                <p>{detail.content1}</p>
+                                            </>
                                         )}
                                     </div>
                                 </div>

@@ -79,6 +79,18 @@ body {
     z-index: 1000;
 }
 
+.logo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo p {
+    font-size: 25px;
+    color: gray;
+    font-family: var(--font-roboto);
+}
 
 .left.activeleft {
     display: flex;
@@ -494,7 +506,6 @@ body {
 }
 
 .home-service-header {
-    text-align: justify;
     max-width: 400px;
 }
 
@@ -523,6 +534,7 @@ body {
     font-size: 36px;
     color: var(--button-color);
     margin-bottom: 20px;
+    line-height: 45px;
     text-align: left;
 }
 
@@ -630,7 +642,6 @@ body {
     line-height: 24px;
     margin: 20px 0;
     font-weight: 400;
-    text-align: justify;
 }
 
 .home-team-title h6 {
@@ -695,8 +706,6 @@ body {
 
 .team-description {
     max-width: 500px;
-    text-align: justify;
-
 }
 
 .team-description h2 {
@@ -737,14 +746,14 @@ body {
 .home-contactus {
     width: 100%;
     display: flex;
-    height: 20vh;
-    margin: 40px 0;
-    justify-content: space-around;
+    margin: 60px 0;
+    justify-content: center;
     text-align: center;
 }
 
-.home-contactus-div h1 {
+.home-contactus-div h2 {
     font-family: var(--font-roboto);
+    color: var(--font-color);
 }
 
 /* .home-contactus-div {
@@ -761,30 +770,12 @@ body {
 
 .home-contactus-div h2 {
     font-size: 45px;
+    line-height: 40px;
     margin: 20px;
 }
 
 .home-contactus-div h3 {
     font-size: 35px;
-}
-
-.home-contactus-div button {
-    text-align: center;
-    cursor: pointer;
-    background: var(--button-color);
-    border-radius: 10px;
-    padding: 15px 50px;
-    border: none;
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--text-white);
-    border: 1px solid transparent;
-    line-height: 20px;
-    margin-top: 40px;
-}
-
-.home-contactus-div button:hover {
-    background: var(--text-color);
 }
 
 .home-contactus-map iframe {
@@ -795,7 +786,76 @@ body {
     padding: 0;
 }
 
+.contactus-inquiry {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
 
+.contactus-inquiry-flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 100%;
+    gap: 20px;
+    margin: 30px 0;
+    position: relative;
+
+}
+
+.contactus-inquiry-div {
+    gap: 30px;
+    padding: 50px 20px;
+    justify-content: space-between;
+    background-color: var(--background-color);
+}
+
+.service-feature-div {
+    max-width: 1200px;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.service-details-flex {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.serivce-grid-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 50px 20px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.whatsapp-icon,
+.mail-icon,
+.call-icon {
+    font-size: 45px;
+    color: var(--font-color);
+    margin: 20px 0;
+}
+
+.button-contactus button {
+    cursor: pointer;
+    padding: 5px 40px;
+    border: none;
+    background-color: var(--button-color);
+    color: var(--background-color);
+    border-radius: 10px;
+}
+
+.button-contactus p {
+    margin: 15px 0 5px 0;
+}
+
+.button-contactus h6 {
+    font-size: 16px;
+}
 
 /* =====portfolio===== */
 .main-homeportfolio-div {
@@ -1077,7 +1137,6 @@ body {
 
 .service-container p {
     margin-top: 5px;
-    text-align: justify;
     font-family: var(--font-roboto);
     font-weight: regular;
     color: var(--color-charcoal);
@@ -1108,7 +1167,7 @@ body {
     margin: 15px 0;
     font-family: var(--font-roboto);
     font-weight: regular;
-    line-height: 22px;
+    line-height: 25px;
 }
 
 .service-icon {
@@ -2176,6 +2235,10 @@ body {
     .image-overlay {
         max-width: 100%;
         margin-left: 0px;
+    }
+
+    .contactus-inquiry-div {
+        flex-direction: column;
     }
 
     .service-box {

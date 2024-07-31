@@ -10,7 +10,7 @@ import { Wave } from "react-animated-text";
 
 const Home = () => {
     const [currentDataIndex, setCurrentDataIndex] = useState(0);
-    const data = ["Voor zaken", "Om online te verkopen", "Voor uw ideeën"];
+    const data = ["Voor zaken", "om online te verkopen", "voor uw ideeën"];
     let timer = null;
 
     const changeDataIndex = (currentIndex) => {
@@ -18,7 +18,7 @@ const Home = () => {
             const newIndex = currentIndex + 1 === data.length ? 0 : currentIndex + 1;
             setCurrentDataIndex(newIndex);
             changeDataIndex(newIndex);
-        }, 1500);
+        }, 3000);
     };
 
     useEffect(() => {

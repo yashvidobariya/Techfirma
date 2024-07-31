@@ -14,7 +14,7 @@ const Workflow = () => {
                     transition={{ duration: 1 }}
                     viewport={{ once: true }} className='main-workflow'>
                     <div className="workflow-div">
-                        <p>Beste diensten in zijn klasse</p>
+                        {/* <p>Beste diensten in zijn klasse</p> */}
                         <h2>Ons Proces</h2>
 
                     </div>

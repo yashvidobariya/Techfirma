@@ -1,152 +1,152 @@
 [
     {
         "id": "1",
-        "title": "Android Ontwikkeling",
+        "title": "Android Ontwikkelings",
         "description": "Ontwikkel hoogwaardige Android-apps die zijn afgestemd op uw zakelijke behoeften. Ons team blinkt uit in het creëren van intuïtieve en gebruiksvriendelijke applicaties voor de Google Play Store.",
         "icon": "TiVendorAndroid",
         "image": "/Images/anroid.png",
-        "subtitle": "Waarom kiezen voor Techfirma voor Android-ontwikkeling?",
-        "info": "Bij Teachfirma zijn we gespecialiseerd in het ontwikkelen van eersteklas Android-applicaties die zijn afgestemd op uw zakelijke behoeften. Ons ervaren team van ontwikkelaars combineert technische bekwaamheid met creatief ontwerp om apps te leveren die niet alleen visueel aantrekkelijk, maar ook zeer functioneel zijn.",
+        "subtitle": "Waarom kiezen voor Android ontwikkeling bij TechFirma",
+        "info": "Bij TechFirma zijn we gespecialiseerd in het ontwikkelen van eersteklas Android applicaties die zijn afgestemd op uw zakelijke behoeften. Ons ervaren team van ontwikkelaars combineert technische bekwaamheid met creatief ontwerp om apps te leveren die niet alleen visueel aantrekkelijk maar ook zeer functioneel zijn.",
         "Technology": {
-            "Languages": "Java, Kotlin",
+            "Talen": "Java, Kotlin",
             "Frameworks": "Android SDK, Retrofit, Dagger",
-            "Tools": "Android Studio, Firebase, Google Play Console, Gradle"
+            "Hulpmiddelen": "Android Studio, Firebase, Google Play Console, Gradle"
         },
         "Features": {
-            "Custom Solutions": "We ontwikkelen Android-apps die zijn afgestemd op uw unieke zakelijke vereisten, zodat ze perfect aansluiten bij uw doelen.",
-            "User-Centric Design": "Onze ontwerpfilosofie richt zich op het creëren van intuïtieve en boeiende gebruikersinterfaces die een uitzonderlijke gebruikerservaring bieden.",
-            "Robust Performance": "Onze apps zijn geoptimaliseerd voor prestaties, met snelle laadtijden en soepele werking op alle Android-apparaten.",
-            "Security": "We geven prioriteit aan beveiliging om de gegevens van uw gebruikers te beschermen en ervoor te zorgen dat uw app voldoet aan de richtlijnen van Google.",
-            "Ongoing Support": "Onze betrokkenheid eindigt niet bij de lancering. We bieden doorlopende onderhoud en ondersteuning om uw app soepel te laten werken en up-to-date te houden met de nieuwste Android-functies."
+            "Aangepaste Oplossingen": "We ontwikkelen Android-apps die zijn afgestemd op uw unieke zakelijke vereisten, zodat ze perfect aansluiten bij uw doelen.",
+            "Gebruikergericht Ontwerp": "Onze ontwerpfilosofie richt zich op het creëren van intuïtieve en fascinerende gebruikersinterfaces die een uitzonderlijke gebruikerservaring bieden.",
+            "Robuuste Prestaties": "Onze apps zijn geoptimaliseerd voor prestaties, zorgen voor snelle laadtijden en een soepele werking op alle Android-apparaten.",
+            "Beveiliging": "We geven prioriteit aan beveiliging om de gegevens van uw gebruikers te beschermen en ervoor te zorgen dat uw app voldoet aan de richtlijnen van Google.",
+            "Doorlopende Ondersteuning": "Onze inzet eindigt niet bij de lancering. We bieden doorlopend onderhoud en ondersteuning om ervoor te zorgen dat uw app soepel blijft werken en up-to-date is met de nieuwste Android-functies."
         },
         "DevelopmentProcess": {
-            "Discovery & Planning": "We beginnen met het begrijpen van uw visie en vereisten. Dit omvat gedetailleerde discussies om de functionaliteit en doelstellingen van de app te definiëren.",
-            "Design": "Ons ontwerpteam maakt wireframes en mockups, waarbij wordt gezorgd dat de app gebruiksvriendelijk en visueel aantrekkelijk is.",
-            "Development": "Onze bekwame ontwikkelaars brengen het ontwerp tot leven door de app te coderen met de nieuwste technologieën en beste praktijken.",
-            "Testing": "Rigoureuze tests worden uitgevoerd om eventuele problemen te identificeren en op te lossen, zodat de app foutloos is en perfect presteert.",
-            "Deployment": "Zodra goedgekeurd, lanceren we de app in de Google Play Store en monitoren we de prestaties om een succesvolle release te garanderen.",
-            "Maintenance & Updates": "We bieden doorlopende ondersteuning en updates om uw app actueel en optimaal functionerend te houden."
+            "Ontdekking & Planning": "We beginnen met het begrijpen van uw visie en vereisten. Dit omvat gedetailleerde discussies om de functionaliteit en doelstellingen van de app te definiëren.",
+            "Ontwerp": "Ons ontwerpteam maakt wireframes en mockups, waarbij wordt gezorgd dat de app gebruiksvriendelijk en visueel aantrekkelijk is.",
+            "Ontwikkeling": "Onze bekwame ontwikkelaars brengen het ontwerp tot leven door de app te coderen met de nieuwste technologieën en beste praktijken.",
+            "Testen": "Er worden strenge tests uitgevoerd om eventuele problemen te identificeren en op te lossen, zodat de app geen bugs bevat en feilloos functioneert.",
+            "Inzet": "Na goedkeuring, lanceren we de app in de Google Play Store en monitoren we de prestaties om een succesvolle release te garanderen.",
+            "Onderhoud & Updates": "We bieden voortdurende ondersteuning en updates om uw app actueel te houden en optimaal te laten functioneren."
         }
     },
     {
         "id": "2",
-        "title": "iPhone Ontwikkeling",
-        "description": "Creëer uitzonderlijke iOS-apps met verbluffend ontwerp en naadloze functionaliteit. Onze expertise in iPhone-ontwikkeling zorgt voor een premium gebruikerservaring op Apple-apparaten.",
+        "title": "iPhone Ontwikkelings",
+        "description": "Creëer uitzonderlijke iOS-apps met verbluffende ontwerpen en naadloze functionaliteiten. Onze expertise in iPhone-ontwikkeling zorgt voor een premium gebruikerservaring op Apple-apparaten.",
         "icon": "RiAppleFill",
         "image": "/Images/iphone.png",
-        "subtitle": "Waarom kiezen voor Techfirma voor iPhone-ontwikkeling?",
-        "info": "Bij Techfirma zijn we gespecialiseerd in het ontwikkelen van eersteklas iPhone-applicaties die zijn afgestemd op uw zakelijke behoeften. Ons ervaren team van ontwikkelaars combineert technische bekwaamheid met creatief ontwerp om apps te leveren die niet alleen visueel aantrekkelijk, maar ook zeer functioneel zijn.",
+        "subtitle": "Waarom kiezen voor iPhone-ontwikkeling bij TechFirma",
+        "info": "Bij TechFirma zijn we gespecialiseerd in het ontwikkelen van eersteklas iPhone-applicaties die zijn afgestemd op uw zakelijke behoeften. Ons ervaren team van ontwikkelaars combineert technische bekwaamheid met creatief ontwerp om apps te leveren die niet alleen visueel aantrekkelijk, maar ook zeer functioneel zijn.",
         "Technology": {
-            "Languages": "Swift, Objective-C",
+            "Talen": "Swift, Objective-C",
             "Frameworks": "UIKit, SwiftUI, CoreData, Combine",
-            "Tools": "TestFlight, Firebase, Cocoapods, Fastlane"
+            "Hulpmiddelen": "TestFlight, Firebase, Cocoapods, Fastlane"
         },
         "Features": {
-            "CustomSolutions": "We ontwikkelen iOS-apps die zijn afgestemd op uw unieke zakelijke vereisten, zodat ze perfect aansluiten bij uw doelen.",
-            "UserCentricDesign": "Onze ontwerpfilosofie richt zich op het creëren van intuïtieve en boeiende gebruikersinterfaces die een uitzonderlijke gebruikerservaring bieden.",
-            "RobustPerformance": "Onze apps zijn geoptimaliseerd voor prestaties, met snelle laadtijden en soepele werking op alle iPhone-modellen.",
-            "Security": "We geven prioriteit aan beveiliging om de gegevens van uw gebruikers te beschermen en ervoor te zorgen dat uw app voldoet aan de strenge richtlijnen van Apple.",
-            "OngoingSupport": "Onze betrokkenheid eindigt niet bij de lancering. We bieden doorlopende onderhoud en ondersteuning om uw app soepel te laten werken en up-to-date te houden met de nieuwste iOS-functies."
+            "Aangepaste Oplossingen": "We ontwikkelen iOS-apps die zijn afgestemd op uw unieke zakelijke vereisten, zodat ze perfect aansluiten bij uw doelen.",
+            "Gebruikergericht Ontwerp": "Onze ontwerpfilosofie richt zich op het creëren van intuïtieve en fascinerende gebruikersinterfaces die een uitzonderlijke gebruikerservaring bieden.",
+            "Robuuste Prestaties": "Onze apps zijn geoptimaliseerd voor prestaties , zorgen voor snelle laadtijden en een soepele werking op alle iPhone-modellen.",
+            "Beveiliging": "We geven prioriteit aan beveiliging om de gegevens van uw gebruikers te beschermen en ervoor te zorgen dat uw app voldoet aan de strenge richtlijnen van Apple.",
+            "Doorlopende Ondersteuning": "Onze inzet eindigt niet bij de lancering. We bieden doorlopend onderhoud en ondersteuning om ervoor te zorgen dat uw app soepel blijft werken en up-to-date is met de nieuwste iOS-functies"
         },
         "DevelopmentProcess": {
-            "DiscoveryPlanning": "We beginnen met het begrijpen van uw visie en vereisten. Dit omvat gedetailleerde discussies om de functionaliteit en doelstellingen van de app te definiëren.",
-            "Design": "Ons ontwerpteam maakt wireframes en mockups, waarbij wordt gezorgd dat de app gebruiksvriendelijk en visueel aantrekkelijk is.",
-            "Development": "Onze bekwame ontwikkelaars brengen het ontwerp tot leven door de app te coderen met de nieuwste technologieën en beste praktijken.",
-            "Testing": "Rigoureuze tests worden uitgevoerd om eventuele problemen te identificeren en op te lossen, zodat de app foutloos is en perfect presteert.",
-            "Deployment": "Zodra goedgekeurd, lanceren we de app in de Apple App Store en monitoren we de prestaties om een succesvolle release te garanderen.",
-            "MaintenanceUpdates": "We bieden doorlopende ondersteuning en updates om uw app actueel en optimaal functionerend te houden."
+            "Ontdekking & Planning": "We beginnen met het begrijpen van uw visie en vereisten. Dit omvat gedetailleerde discussies om de functionaliteit en doelstellingen van de app te definiëren.",
+            "Ontwerp": "Ons ontwerpteam maakt wireframes en mockups, waarbij wordt gezorgd dat de app gebruiksvriendelijk en visueel aantrekkelijk is.",
+            "Ontwikkeling": "Onze bekwame ontwikkelaars brengen het ontwerp tot leven door de app te coderen met de nieuwste technologieën en beste praktijken.",
+            "Testen": "Er worden strenge tests uitgevoerd om eventuele problemen te identificeren en op te lossen, zodat de app geen bugs bevat en feilloos functioneert.",
+            "Inzet": "Na goedkeuring, lanceren we de app in de Apple App Store en monitoren we de prestaties om een succesvolle release te garanderen.",
+            "Onderhoud & Updates": "We bieden voortdurende ondersteuning en updates om uw app actueel te houden en optimaal te laten functioneren."
         }
     },
     {
         "id": "3",
-        "title": "Webontwikkeling",
-        "description": "Bouw dynamische en schaalbare websites die boeien en converteren. Onze webontwikkelingsdiensten leveren impactvolle online ervaringen die zijn afgestemd op uw merk.",
+        "title": "Webontwikkelings",
+        "description": "Bouw dynamische en schaalbare websites die bezoekers vangen en converteren. Onze webontwikkelingsdiensten leveren impactvolle online ervaringen die zijn afgestemd op uw merk.",
         "icon": "RiComputerLine",
         "image": "/Images/web.png",
-        "subtitle": "Waarom kiezen voor Techfirma voor webontwikkeling?",
-        "info": "Bij Techfirma zijn we gespecialiseerd in het ontwikkelen van eersteklas websites die zijn afgestemd op uw zakelijke behoeften. Ons ervaren team van ontwikkelaars combineert technische bekwaamheid met creatief ontwerp om websites te leveren die niet alleen visueel aantrekkelijk, maar ook zeer functioneel zijn.",
+        "subtitle": "Waarom kiezen voor Webontwikkeling bij TechFirma",
+        "info": "Bij TechFirma zijn we gespecialiseerd in het ontwikkelen van eersteklas websites die zijn afgestemd op uw zakelijke behoeften. Ons ervaren team van ontwikkelaars combineert technische bekwaamheid met creatief ontwerp om websites te leveren die niet alleen visueel aantrekkelijk, maar ook zeer functioneel zijn.",
         "Technology": {
-            "Languages": "HTML, CSS, JavaScript, PHP, Python, Ruby",
+            "Talen": "HTML, CSS, JavaScript, PHP, Python, Ruby",
             "Frameworks": "React, Angular, Vue.js, Django, Flask, Ruby on Rails",
-            "CMS": "WordPress, Joomla, Drupal",
+            "Content Management Systeem (CMS)": "WordPress, Joomla, Drupal",
             "E-commerce": "WooCommerce, Shopify, Magento",
-            "Tools": "Git, Webpack, npm, Docker, AWS, Azure, Google Cloud"
+            "Hulpmiddelen": "Git, Webpack, npm, Docker, AWS, Azure, Google Cloud"
         },
         "Features": {
-            "Custom Solutions": "We ontwikkelen websites die zijn afgestemd op uw unieke zakelijke vereisten, zodat ze perfect aansluiten bij uw doelen.",
-            "User-Centric Design": "Onze ontwerpfilosofie richt zich op het creëren van intuïtieve en boeiende gebruikersinterfaces die een uitzonderlijke gebruikerservaring bieden.",
-            "Robust Performance": "Onze websites zijn geoptimaliseerd voor prestaties, met snelle laadtijden en soepele werking op alle apparaten.",
-            "Security": "We geven prioriteit aan beveiliging om uw gegevens te beschermen en ervoor te zorgen dat uw website voldoet aan de nieuwste normen.",
-            "Ongoing Support": "Onze betrokkenheid eindigt niet bij de lancering. We bieden doorlopende onderhoud en ondersteuning om uw website soepel te laten werken en up-to-date te houden met de nieuwste trends."
+            "Aangepaste Oplossingen": "We ontwikkelen websites die zijn afgestemd op uw unieke zakelijke vereisten, zodat ze perfect aansluiten bij uw doelen.",
+            "Gebruikergericht Ontwerp": "Onze ontwerpfilosofie richt zich op het creëren van intuïtieve en fascinerende gebruikersinterfaces die een uitzonderlijke gebruikerservaring bieden.",
+            "Robuuste Prestaties": "Onze websites zijn geoptimaliseerd voor prestaties, zorgen voor snelle laadtijden en een soepele werking op alle apparaten.",
+            "Beveiliging": "We geven prioriteit aan beveiliging om uw gegevens te beschermen en ervoor te zorgen dat uw website voldoet aan de nieuwste normen.",
+            "Doorlopende Ondersteuning": "Onze inzet eindigt niet bij de lancering. We bieden doorlopend onderhoud en ondersteuning om ervoor te zorgen dat uw website soepel blijft werken en up-to-date is met de nieuwste trends."
         },
         "DevelopmentProcess": {
-            "Iscovery & Planning": "We beginnen met het begrijpen van uw visie en vereisten. Dit omvat gedetailleerde discussies om de functionaliteit en doelstellingen van de website te definiëren.",
-            "Design": "Ons ontwerpteam maakt wireframes en mockups, waarbij wordt gezorgd dat de website gebruiksvriendelijk en visueel aantrekkelijk is.",
-            "Development": "Onze bekwame ontwikkelaars brengen het ontwerp tot leven door de website te coderen met de nieuwste technologieën en beste praktijken.",
-            "Testing": "Rigoureuze tests worden uitgevoerd om eventuele problemen te identificeren en op te lossen, zodat de website foutloos is en perfect presteert.",
-            "Deployment": "Zodra goedgekeurd, lanceren we de website en monitoren we de prestaties om een succesvolle release te garanderen.",
-            "Maintenance & Updates": "We bieden doorlopende ondersteuning en updates om uw website actueel en optimaal functionerend te houden."
+            "Ontdekking & Planning": "We beginnen met het begrijpen van uw visie en vereisten. Dit omvat gedetailleerde discussies om de functionaliteit en doelstellingen van de website te definiëren.",
+            "Ontwerp": "Ons ontwerpteam maakt wireframes en mockups, waarbij wordt gezorgd dat de website gebruiksvriendelijk en visueel aantrekkelijk is.",
+            "Ontwikkeling": "Onze bekwame ontwikkelaars brengen het ontwerp tot leven door de website te coderen met de nieuwste technologieën en beste praktijken.",
+            "Testen": "Er worden strenge tests uitgevoerd om eventuele problemen te identificeren en op te lossen, zodat de app geen bugs bevat en feilloos functioneert.",
+            "Inzet": "Na goedkeuring, lanceren we de website en monitoren we de prestaties om een succesvolle release te garanderen.",
+            "Onderhoud & Updates": "We bieden voortdurende ondersteuning en updates om uw website actueel te houden en optimaal te laten functioneren."
         }
     },
     {
         "id": "4",
         "title": "UI/UX & Grafisch Ontwerp",
-        "description": "Verhoog uw digitale aanwezigheid met onze deskundige UI/UX en grafische ontwerpdiensten. We richten ons op gebruiksgericht ontwerp om visueel aantrekkelijke en intuïtieve interfaces te creëren.",
+        "description": "Verbeter uw digitale aanwezigheid met onze deskundige UI/UX en grafische ontwerpdiensten. We richten ons op gebruikersgericht ontwerp om visueel aantrekkelijke en intuïtieve interfaces te creëren.",
         "icon": "SiAntdesign",
         "image": "/Images/ui-ux.png",
-        "subtitle": "Waarom kiezen voor Techfirma voor UI/UX & grafisch ontwerp?",
-        "info": "Bij Techfirma zijn we gespecialiseerd in het ontwikkelen van eersteklas UI/UX-ontwerpen die zijn afgestemd op uw zakelijke behoeften. Ons ervaren team van ontwerpers combineert creatief ontwerp met gebruiksgerichte principes om interfaces te leveren die niet alleen visueel aantrekkelijk, maar ook zeer functioneel zijn.",
+        "subtitle": "Waarom kiezen voor UI/UX & grafisch ontwerp bij TechFirma.",
+        "info": "Bij Techfirma zijn we gespecialiseerd in het ontwikkelen van eersteklas UI/UX-ontwerpen die zijn afgestemd op uw zakelijke behoeften. Ons ervaren team van ontwerpers combineert creatief ontwerp met gebruikersgerichte principes om interfaces te leveren die niet alleen visueel aantrekkelijk, maar ook zeer functioneel zijn.",
         "Technology": {
-            "Design Tools": "Adobe XD, Sketch, Figma, InVision, Adobe Photoshop, Adobe Illustrator",
+            "Ontwerphulpmiddelen": "Adobe XD, Sketch, Figma, InVision, Adobe Photoshop, Adobe Illustrator",
             "Prototyping": "Marvel, Axure RP",
-            "Testing": "UserTesting, Hotjar, Optimizely"
+            "Testen": "UserTesting, Hotjar, Optimizely"
         },
         "Features": {
-            "Custom Solutions": "We ontwerpen interfaces die zijn afgestemd op uw unieke zakelijke vereisten, zodat ze perfect aansluiten bij uw doelen.",
-            "User-Centric Design": "Onze ontwerpfilosofie richt zich op het creëren van intuïtieve en boeiende gebruikersinterfaces die een uitzonderlijke gebruikerservaring bieden.",
-            "Visual Appeal": "We zorgen voor consistentie over alle platforms en apparaten, wat een naadloze gebruikerservaring biedt.",
-            "Consistency": "We zorgen voor consistentie over alle platforms en apparaten, wat een naadloze gebruikerservaring biedt.",
-            "Ongoing Support": "Onze betrokkenheid eindigt niet bij de lancering. We bieden doorlopende onderhoud en ondersteuning om uw ontwerp fris en up-to-date te houden met de nieuwste trends."
+            "Aangepaste oplossingen": "We ontwerpen interfaces die zijn afgestemd op uw unieke zakelijke vereisten, zodat ze perfect aansluiten bij uw doelen.",
+            "Gebruikergericht Ontwerp": "Onze ontwerpfilosofie richt zich op het creëren van intuïtieve en fascinerende gebruikersinterfaces die een uitzonderlijke gebruikerservaring bieden.",
+            "Visuele Aantrekkingskracht": "We zorgen voor consistentie op alle platforms en apparaten en bieden een naadloze gebruikerservaring.",
+            "Consistentie": "We zorgen voor consistentie op alle platforms en apparaten en bieden een naadloze gebruikerservaring.",
+            "Doorlopende Ondersteuning": "Onze betrokkenheid eindigt niet bij de lancering. Wij bieden doorlopend onderhoud en ondersteuning om uw ontwerp fris en up-to-date te houden met de nieuwste trends."
         },
         "DevelopmentProcess": {
-            "Discovery & Planning": "We beginnen met het begrijpen van uw visie en vereisten. Dit omvat gedetailleerde discussies om de functionaliteit en doelstellingen van het ontwerp te definiëren.",
+            "Ontdekking & Planning": "We beginnen met het begrijpen van uw visie en vereisten. Dit omvat gedetailleerde discussies om de functionaliteit en doelstellingen van het ontwerp te definiëren.",
             "Wireframing": "Ons ontwerpteam maakt wireframes, waarbij wordt gezorgd dat het ontwerp gebruiksvriendelijk en visueel aantrekkelijk is.",
             "Prototyping": "We ontwikkelen prototypes om het ontwerp tot leven te brengen, waardoor feedback en aanpassingen mogelijk zijn.",
-            "Design": "Onze bekwame ontwerpers finaliseren het ontwerp en creëren visueel verbluffende en intuïtieve interfaces.",
-            "Testing": "Rigoureuze tests worden uitgevoerd om eventuele problemen te identificeren en op te lossen, zodat het ontwerp functioneel en gebruiksvriendelijk is.",
-            "Deployment": "Zodra goedgekeurd, implementeren we het ontwerp en monitoren we de prestaties om een succesvolle release te garanderen.",
-            "Maintenance & Updates": "We bieden doorlopende ondersteuning en updates om uw ontwerp actueel en optimaal functionerend te houden."
+            "Ontwerp": "Onze bekwame ontwerpers finaliseren het ontwerp en creëren visueel verbluffende en intuïtieve interfaces.",
+            "Testen": "Er worden strenge tests uitgevoerd om eventuele problemen te identificeren en op te lossen, zodat het ontwerp functioneel en gebruiksvriendelijk is.",
+            "Inzet": "Na goedkeuring, implementeren we het ontwerp en monitoren we de prestaties om een succesvolle release te garanderen.",
+            "Onderhoud & Updatess": "Wij bieden voortdurende ondersteuning en updates om uw ontwerp actueel te houden en optimaal te laten functioneren."
         }
     },
     {
         "id": "5",
         "title": "SEO & Digitale Marketing",
-        "description": "Verhoog uw online zichtbaarheid en stuur gericht verkeer met onze SEO- en digitale marketingdiensten. We gebruiken de nieuwste strategieën om ervoor te zorgen dat uw merk opvalt.",
+        "description": "Vergroot uw online zichtbaarheid en genereer doelgericht verkeer met onze SEO-en digitale marketingdiensten. Wij gebruiken de nieuwste strategieën om ervoor te zorgen dat uw merk opvalt.",
         "icon": "FaFileInvoiceDollar",
         "image": "/Images/marketing.png",
-        "subtitle": "Waarom kiezen voor Techfirma voor SEO & digitale marketing?",
-        "info": "Bij Techfirma zijn we gespecialiseerd in het ontwikkelen van eersteklas SEO- en digitale marketingstrategieën die zijn afgestemd op uw zakelijke behoeften. Ons ervaren team combineert technische bekwaamheid met creatieve strategieën om campagnes te leveren die niet alleen effectief, maar ook zeer boeiend zijn.",
+        "subtitle": "Waarom kiezen voor SEO & Digitale marketing bij TechFirma.",
+        "info": "Bij TechFirma zijn we gespecialiseerd in het ontwikkelen van eersteklas SEO- en digitale marketingstrategieën die zijn afgestemd op uw zakelijke behoeften.Ons ervaren team combineert technische vaardigheid met creatieve strategieën om campagnes te leveren die niet alleen effectief maar ook zeer boeiend zijn.",
         "Technology": {
-            "SEO Tools": "Google Analytics, Google Search Console, SEMrush, Ahrefs, Moz",
-            "Content Management": "WordPress, HubSpot, Joomla",
-            "Marketing Automation": "Mailchimp, HubSpot, Marketo",
-            "Social Media Management": "Hootsuite, Buffer, Sprout Social",
-            "Advertising": "Google Ads, Facebook Ads, LinkedIn Ads, Twitter Ads"
+            "SEO-hulpmiddelen": "Google Analytics, Google Search Console, SEMrush, Ahrefs, Moz",
+            "Inhoud Beheer": "WordPress, HubSpot, Joomla",
+            "Marketing Automatisering": "Mailchimp, HubSpot, Marketo",
+            "Beheer van Sociale Media": "Hootsuite, Buffer, Sprout Social",
+            "Reclame": "Google Ads, Facebook Ads, LinkedIn Ads, Twitter Ads"
         },
         "Features": {
-            "Custom Solutions": "We ontwikkelen SEO- en digitale marketingstrategieën die zijn afgestemd op uw unieke zakelijke vereisten, zodat ze perfect aansluiten bij uw doelen.",
-            "Data-Driven Approach": "Onze strategieën zijn gebaseerd op data en analyses, wat zorgt voor effectieve en meetbare resultaten.",
-            "Content Excellence": "We creëren hoogwaardige content die uw doelgroep aanspreekt en de online aanwezigheid van uw merk versterkt.",
-            "Technical Expertise": "Ons team is bedreven in de nieuwste SEO-technieken en digitale marketingtools om uw succes te waarborgen.",
-            "Ongoing Support": "Onze betrokkenheid eindigt niet bij de lancering van de campagne. We bieden doorlopende monitoring en optimalisatie om uw strategie effectief en up-to-date te houden."
+            "Aangepaste Oplossingen": "We ontwikkelen SEO- en digitale marketingstrategieën die zijn afgestemd op uw unieke zakelijke vereisten, zodat ze perfect aansluiten bij uw doelen.",
+            "Datagedreven Aanpak": "Onze strategieën zijn gebaseerd op data en analyses, waardoor effectieve en meetbare resultaten worden gegarandeerd.",
+            "Inhoudelijke Uitmuntendheid": "We creëren hoogwaardige content die uw doelgroep aanspreekt en de online aanwezigheid van uw merk versterkt.",
+            "Technische expertise": "Ons team is bekwaam in de nieuwste SEO-technieken en digitale marketingtools om uw succes te garanderen.",
+            "Doorlopende Ondersteuning": "Onze toewijding eindigt niet bij de lancering van de campagne. We bieden doorlopende monitoring en optimalisatie om uw strategie effectief en up-to-date te houden."
         },
         "DevelopmentProcess": {
-            "Discovery & Plannin": "We beginnen met het begrijpen van uw visie en vereisten. Dit omvat gedetailleerde discussies om de doelstellingen van de campagne en de doelgroep te definiëren.",
-            "Research & Analysis": "Ons team voert grondig onderzoek en analyse uit om een effectieve strategie te ontwikkelen.",
-            "Strategy Development": "We creëren een uitgebreide SEO- en digitale marketingplan die is afgestemd op uw zakelijke behoeften.",
-            "Implementation": "Ons bekwame team implementeert de strategie met behulp van de nieuwste tools en technieken.",
-            "Monitoring & Optimization": "Rigoureuze monitoring wordt uitgevoerd om de prestaties van de campagne bij te houden, met doorlopende optimalisatie om succes te waarborgen.",
-            "Reporting": "We leveren gedetailleerde rapporten over de voortgang en resultaten van de campagne, wat zorgt voor transparantie en verantwoording."
+            "Ontdekking & Planning": "We beginnen met het begrijpen van uw visie en vereisten. Dit omvat gedetailleerde discussies om de doelstellingen van de campagne en de doelgroep te definiëren.",
+            "Onderzoek & Analyse": "Ons team voert grondig onderzoek en analyse uit om een effectieve strategie te ontwikkelen.",
+            "Strategie Ontwikkeling": "We creëren een uitgebreid SEO- en digitaal marketingplan, afgestemd op uw zakelijke behoeften.",
+            "Implementatie": "Ons ervaren team implementeert de strategie met behulp van de nieuwste tools en technieken.",
+            "Monitoring & Optimalisatie": "Er wordt een strenge monitoring uitgevoerd om de prestaties van de campagne bij te houden, met voortdurende optimalisatie om succes te garanderen.",
+            "Rapportage": "We leveren gedetailleerde rapporten over de voortgang en resultaten van de campagne, wat zorgt voor transparantie en verantwoording."
         }
     }
 ]

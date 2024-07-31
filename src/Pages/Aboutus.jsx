@@ -13,11 +13,12 @@ const Aboutus = () => {
                     viewport={{ once: true }}
                     className="contact-header-title">
                     <h1>Over Ons</h1>
-                    <p>Bij Techfirma transformeren we ideeën tot digitale meesterwerken. Sinds onze oprichting leveren we eersteklas web- en mobiele ontwikkelingsdiensten. Ons deskundige team maakt gebruik van de nieuwste technologieën om innovatieve, betrouwbare oplossingen te creëren die zijn afgestemd op uw unieke behoeften. Sluit u aan bij ons op onze reis naar digitale succes en opmerkelijke groei.</p>
+                    <p>Bij Techfirma transformeren we ideeën tot digitale meesterwerken.<br /> Sinds onze oprichting leveren we eersteklas web- en mobiele ontwikkelingsdiensten. Ons deskundige team maakt gebruik van de nieuwste technologieën om innovatieve en betrouwbare oplossingen te creëren die zijn afgestemd op uw unieke behoeften. Ga met ons mee op onze reis om digitaal succes en opmerkelijke groei te bereiken.
+                    </p>
 
                 </motion.div>
             </div>
-            <Team />
+            <Team />+
         </div>
     )
 }

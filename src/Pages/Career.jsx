@@ -38,7 +38,7 @@ const Career = () => {
                     <motion.h2 initial={{ y: -50, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 1 }}
-                        viewport={{ once: true }}>Care of Employees</motion.h2>
+                        viewport={{ once: true }}>Zorg voor medewerkers</motion.h2>
                     <motion.div
                         initial={{ y: 60, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
@@ -126,7 +126,7 @@ const Career = () => {
 
                 <div className="career-uper-section">
                     <h2>Wil je werken voor <br />Techfirma?</h2>
-                    <p>Kom bij Techfirma en til je carrière naar een hoger niveau. We zijn op zoek naar getalenteerde, energieke individuen om deel uit te maken van ons innovatieve team. Bij Techfirma geniet je van een reeks voordelen, waaronder concurrerende salarissen, carrièremogelijkheden en een positieve werkomgeving. We bieden flexibele werktijden, geavanceerde technologie en een ondersteunende teamcultuur. Ervaar professionele groei via onze trainingsprogramma's, werk aan impactvolle projecten en werk samen met een wereldwijd klantenbestand. Met royale vakantietijd en een focus op werk-privébalans is Techfirma de ideale plek voor ambitieuze professionals.</p>
+                    <p>Sluit je aan bij TechFirma en breng je carrière naar een hoger niveau. We zijn op zoek naar getalenteerde, energieke individuen om deel uit te maken van ons innovatieve team. Bij Techfirma geniet je van een reeks voordelen, waaronder concurrerende salarissen, carrièremogelijkheden en een positieve werkomgeving. We bieden flexibele werktijden, geavanceerde technologie en een ondersteunende teamcultuur. Ervaar professionele groei via onze trainingsprogramma's, werk aan impactvolle projecten en werk samen met een wereldwijd klantenbestand. Met royale vakantietijd en een focus op werk-privébalans is Techfirma de ideale plek voor ambitieuze professionals.</p>
                 </div>
 
 

@@ -30,31 +30,6 @@ const icons = {
 };
 
 const Services = () => {
-    const swiperRef = useRef(null);
-
-    useEffect(() => {
-        const swiperInstance = swiperRef.current.swiper;
-
-        const handleSlideChange = () => {
-            const slides = swiperInstance.slides;
-            slides.forEach((slide, index) => {
-                slide.classList.remove('swiper-slide-large', 'swiper-slide-small');
-                if (swiperInstance.realIndex === index) {
-                    slide.classList.add('swiper-slide-large');
-                } else {
-                    slide.classList.add('swiper-slide-small');
-                }
-            });
-        };
-
-        swiperInstance.on('slideChange', handleSlideChange);
-
-        handleSlideChange();
-
-        return () => {
-            swiperInstance.off('slideChange', handleSlideChange);
-        };
-    }, []);
 
     const containerVariants = {
         hidden: {
@@ -95,7 +70,7 @@ const Services = () => {
                         className="service-uper-section"
                     >
                         <h1>Onze Diensten</h1>
-                        <p>Bij Techfirma bieden we een uitgebreid pakket digitale diensten aan die zijn ontworpen om aan uw unieke zakelijke behoeften te voldoen. Ons team van experts maakt gebruik van de nieuwste technologieën om innovatieve en betrouwbare oplossingen te leveren. Ontdek ons scala aan diensten en ontdek hoe wij u kunnen helpen uw digitale doelen te bereiken.</p>
+                        <p>Bij Techfirma bieden we een uitgebreid pakket aan digitale diensten aan die zijn ontworpen om aan uw unieke zakelijke behoeften te voldoen. Ons team van experts maakt gebruik van de nieuwste technologieën om innovatieve en betrouwbare oplossingen te leveren. Ontdek ons scala aan diensten en ontdek hoe wij u kunnen helpen uw digitale doelen te bereiken.</p>
 
                     </motion.div>
 
@@ -143,51 +118,6 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className="service-review-main">
-                <div className="service-review">
-                    <h2>klant getuigenissen</h2>
-                </div>
-                <div className="service-review-div">
-                    <div className="service-review-content">
-                        <Swiper
-                            effect={'coverflow'}
-                            grabCursor={true}
-                            centeredSlides={true}
-                            autoplay={{ delay: 3000, disableOnInteraction: false }}
-                            loop={true}
-                            coverflowEffect={{
-                                rotate: 0,
-                                stretch: 0,
-                                depth: 100,
-                                modifier: 1,
-                                slideShadows: false,
-                            }}
-                            modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
-                            className='review_slider'
-                            ref={swiperRef}
-                            navigation={{
-                                prevEl: '.button-prev',
-                                nextEl: '.button-next',
-                            }}
-                        >
-                            {reviews.map(item => (
-                                <SwiperSlide key={item.id}>
-                                    <img src={item.img} alt={item.name} aria-hidden='true' className='review-slider-image' />
-                                    <div className="review-slider-feedback">
-                                        <div className="review-detail">
-                                            <p>{item.detail}</p>
-                                            <h3>{item.name}</h3>
-                                            <h6>{item.line}</h6>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                            ))}
-                        </Swiper>
-                        <div className="button-prev"><MdArrowBackIos className='prev' /></div>
-                        <div className="button-next"><MdArrowForwardIos className='next' /></div>
-                    </div>
-                </div>
-            </div>
         </div>
     );
 }

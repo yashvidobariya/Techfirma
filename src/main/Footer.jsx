@@ -4,7 +4,7 @@ import { MdOutlineMail, MdOutlinePhoneIphone } from "react-icons/md";
 import { FaRegMap } from "react-icons/fa";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { IoLogoInstagram } from "react-icons/io";
-
+import { IoLogoWhatsapp } from "react-icons/io5";
 
 function Footer() {
     const location = useLocation();
@@ -23,6 +23,7 @@ function Footer() {
                     <div className="footer-content">
                         <div className='logo'>
                             <img src='/Images/logo.png' alt='footer-techfirma' style={{ width: 40 }} />
+                            <p>Techfirma</p>
                         </div>
                         <h3>Over Ons</h3>
                         <p>Bij Techfirma versterken we kleine tot middelgrote bedrijven door innovatieve IT-oplossingen te bieden die groei stimuleren en duurzaamheid garanderen. We zijn toegewijd aan uw succes en streven naar uitmuntendheid in alles wat we doen.</p>
@@ -86,13 +87,13 @@ function Footer() {
                     </div>
 
                     <div className="footer-content">
-                        <h3>Contacteer Ons</h3>
+                        <h3>Contact</h3>
                         <div className="footer-info">
                             <div className="footer-col">
                                 <MdOutlineMail />
                             </div>
                             <div className="footer-email-content">
-                                <a href='mailto:contact@Techfirma.com' aria-hidden='contact email'>contact@Techfirma.com</a>
+                                <a href='mailto:info@techfirma.nl' aria-hidden='contact email'>info@techfirma.nl</a>
                             </div>
                         </div>
 
@@ -101,17 +102,30 @@ function Footer() {
                                 <MdOutlinePhoneIphone />
                             </div>
                             <div className="footer-email-content">
-                                <a href='tel:+919724283087' aria-hidden='tel phonenumber'>+91 97242 83087</a>
+                                <a href='tel:+31 20 308 68 20' aria-hidden='tel phonenumber'>+31 20 308 68 20</a>
+                            </div>
+                        </div>
+
+
+                        <div className="footer-info">
+                            <div className="footer-col">
+                                <IoLogoWhatsapp />
+                            </div>
+                            <div className="footer-email-content">
+                                <a href='tel:+31 6 49 35 01 76' aria-hidden='tel phonenumber'>+31 6 49 35 01 76</a>
                             </div>
 
                         </div>
+
 
                         <div className="footer-info">
                             <div className="footer-col">
                                 <FaRegMap />
                             </div>
                             <div className="footer-email-content">
-                                <a href='#' aria-hidden='true'>4e verdieping, 20, Shree Nilkanth Business<br /> hub, Causeway Rd, tegenover D-Mart,<br /> Katargam, Surat, Gujarat 395004.</a>
+                                <a href='#' aria-hidden='true'>Papaverweg 34 - unit B100<br />
+                                    1032KJ Amsterdam
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -119,7 +133,7 @@ function Footer() {
                 <div className="footer-privacy">
                     <div className="footer-flex">
                         <div className="footer-copyrigth">
-                            <p>&#169; 2024 Alle rechten voorbehouden - Techfirma.com</p>
+                            <p>&#169; 2024 Alle rechten voorbehouden - TechFirma.nl</p>
                         </div>
 
                         <div className="footer-term">

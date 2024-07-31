@@ -51,6 +51,7 @@ const Header = () => {
                 <div className='upper-header'>
                     <div className='logo'>
                         <img src='/Images/logo.png' alt='header-Techfirma' aria-hidden='true' style={{ width: 50 }} />
+                        <p>Techfirma</p>
                     </div>
                 </div>
 
@@ -61,7 +62,7 @@ const Header = () => {
                             onClick={removeNavbar}
                             className={isActive('/') ? 'active' : ''}
                         >
-                            Thuis
+                            Home
                         </Link>
                         <Link
                             to="/aboutus"

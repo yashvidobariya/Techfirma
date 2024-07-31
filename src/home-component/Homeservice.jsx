@@ -29,7 +29,7 @@ const Homeservice = () => {
                     transition={{ duration: 1 }}
                     viewport={{ once: true }}
                     className="home-service-descitption">
-                    <p>Bij Techfirma bieden we een uitgebreid scala aan digitale oplossingen die zijn ontworpen om uw bedrijf te versterken. Van geavanceerde webontwikkeling tot intuïtieve mobiele applicaties, ons deskundige team zorgt voor uitmuntendheid in elke fase.</p>
+                    <p>Bij Techfirma bieden we een uitgebreid scala aan digitale oplossingen die zijn ontworpen om uw bedrijf te versterken. Van geavanceerde webontwikkeling tot intuïtieve mobiele applicates, ons deskundige team zorgt voor uitmuntendheid in elke fase.</p>
                 </motion.div>
             </div>
 
