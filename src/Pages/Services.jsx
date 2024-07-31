@@ -78,7 +78,7 @@ const Services = () => {
                         animate={{ y: [0, -20, 0], transition: { duration: 3, repeat: Infinity } }}
                         className="service-uper-section"
                     >
-                        <img src='/Images/service.png' aria-hidden='true' alt="Service" />
+                        <img src='/Images/Service.png' aria-hidden='true' alt="Service" />
                     </motion.div>
                 </div>
             </div>
