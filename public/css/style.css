@@ -4,6 +4,8 @@
     line-height: 25px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .App-logo {
     height: 40vmin;
     pointer-events: none;
@@ -86,10 +88,25 @@ body {
     gap: 10px;
 }
 
-.logo p {
-    font-size: 25px;
-    color: gray;
+.techfirma-logo .tech {
+    color: var(--font-color);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--font-montserrat);
+    margin-right: 3px;
+    letter-spacing: 0.05em;
+}
+
+.techfirma-logo .firma {
+    color: var(--button-color);
+    font-size: 24px;
+    font-weight: 400;
     font-family: var(--font-roboto);
+    letter-spacing: 0.03em;
+}
+
+.logo h1 p {
+    color: var(--font-color);
 }
 
 .left.activeleft {

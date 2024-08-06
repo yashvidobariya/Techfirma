@@ -70,7 +70,7 @@ const Services = () => {
                         className="service-uper-section"
                     >
                         <h1>Onze Diensten</h1>
-                        <p>Bij Techfirma bieden we een uitgebreid pakket aan digitale diensten aan die zijn ontworpen om aan uw unieke zakelijke behoeften te voldoen. Ons team van experts maakt gebruik van de nieuwste technologieën om innovatieve en betrouwbare oplossingen te leveren. Ontdek ons scala aan diensten en ontdek hoe wij u kunnen helpen uw digitale doelen te bereiken.</p>
+                        <p>Bij TechFirma bieden we een uitgebreid pakket aan digitale diensten aan die zijn ontworpen om aan uw unieke zakelijke behoeften te voldoen. Ons team van experts maakt gebruik van de nieuwste technologieën om innovatieve en betrouwbare oplossingen te leveren. Ontdek ons scala aan diensten en ontdek hoe wij u kunnen helpen uw digitale doelen te bereiken.</p>
 
                     </motion.div>
 

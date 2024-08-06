@@ -5,11 +5,13 @@ import { TbPhoneCall } from "react-icons/tb";
 import { motion } from "framer-motion";
 import contactDetails from '../Data/contact.json';
 import axios from 'axios';
+import { FaWhatsapp } from "react-icons/fa";
 
 const icons = {
     IoLocationSharp: <IoLocationSharp />,
     BiMailSend: <BiMailSend />,
-    TbPhoneCall: <TbPhoneCall />
+    TbPhoneCall: <TbPhoneCall />,
+    FaWhatsapp: <FaWhatsapp />
 };
 
 const Contactus = () => {
@@ -79,14 +81,10 @@ const Contactus = () => {
                                         {detail.icon === "BiMailSend" ? (
                                             <a href={`mailto:${detail.content}`} aria-hidden='true'>{detail.content}</a>
                                         ) : detail.icon === "TbPhoneCall" ? (
-                                            <>
-                                                <a href={`tel:${detail.content}`} aria-hidden='true'>{detail.content}</a><br />
-                                                <a href={`tel:${detail.content1}`} aria-hidden='true'>{detail.content1}</a>
-                                            </>
+                                            <a href={`tel:${detail.content}`} aria-hidden='true'>{detail.content}</a>
                                         ) : (
                                             <>
                                                 <p>{detail.content}</p>
-                                                <p>{detail.content1}</p>
                                             </>
                                         )}
                                     </div>

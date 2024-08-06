@@ -11,22 +11,21 @@ import { Wave } from "react-animated-text";
 const Home = () => {
     const [currentDataIndex, setCurrentDataIndex] = useState(0);
     const data = ["Voor zaken", "om online te verkopen", "voor uw ideeën"];
-    let timer = null;
-
-    const changeDataIndex = (currentIndex) => {
-        timer = setTimeout(() => {
-            const newIndex = currentIndex + 1 === data.length ? 0 : currentIndex + 1;
-            setCurrentDataIndex(newIndex);
-            changeDataIndex(newIndex);
-        }, 3000);
-    };
+    const intervalDuration = 4000;
 
     useEffect(() => {
-        changeDataIndex(0);
-        return () => {
-            clearTimeout(timer);
-        };
-    }, []);
+        // Set up the timer
+        const timer = setInterval(() => {
+            setCurrentDataIndex(prevIndex => {
+                const newIndex = prevIndex + 1 === data.length ? 0 : prevIndex + 1;
+                return newIndex;
+            });
+        }, intervalDuration);
+
+        // Cleanup the timer on component unmount
+        return () => clearInterval(timer);
+    }, [data.length]);
+
 
     return (
         <>
@@ -39,12 +38,12 @@ const Home = () => {
                         viewport={{ once: true }}
                         className="home-info-first">
                         <div className="home-title">
-                            <h1>Techfirma
-                                <p><Wave text={data[currentDataIndex]} effect="fadeOut" /></p>
+                            <h1>TechFirma
+                                <p><Wave text={data[currentDataIndex]} effect="fadeIn" /></p>
                             </h1>
                         </div>
                         <div className='home-description'>
-                            <p>Welkom bij Techfirma, een toonaangevend IT-bedrijf dat gespecialiseerd is in mobiele applicaties en webontwikkeling. Ons team van ervaren ontwikkelaars heeft een passie voor het creëren van innovatieve en intuïtieve oplossingen die bedrijven helpen te slagen. We zijn trots op het leveren van producten en diensten van topkwaliteit aan onze klanten. Of u nu een aangepaste mobiele app of een volledig uitgeruste website nodig heeft, wij hebben de expertise en middelen om het te realiseren. Neem vandaag nog contact met ons op om meer te weten te komen over hoe wij u kunnen helpen uw bedrijf naar een hoger niveau te tillen.</p>
+                            <p>Welkom bij TechFirma, een toonaangevend IT-bedrijf dat gespecialiseerd is in mobiele applicaties en webontwikkeling. Ons team van ervaren ontwikkelaars heeft een passie voor het creëren van innovatieve en intuïtieve oplossingen die bedrijven helpen te slagen. We zijn trots op het leveren van producten en diensten van topkwaliteit aan onze klanten. Of u nu een aangepaste mobiele app of een volledig uitgeruste website nodig heeft, wij hebben de expertise en middelen om het te realiseren. Neem vandaag nog contact met ons op om meer te weten te komen over hoe wij u kunnen helpen uw bedrijf naar een hoger niveau te tillen.</p>
                         </div>
                         <div className="home-button">
                             <Link to='/contactus'>
@@ -87,7 +86,7 @@ const Home = () => {
             <Workflow />
             <Homeservice />
             <Team />
-            <Homeportfolio />
+            {/* <Homeportfolio /> */}
             <Homecontactus />
         </>
     );

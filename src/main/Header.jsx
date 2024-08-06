@@ -51,7 +51,10 @@ const Header = () => {
                 <div className='upper-header'>
                     <div className='logo'>
                         <img src='/Images/logo.png' alt='header-Techfirma' aria-hidden='true' style={{ width: 50 }} />
-                        <p>Techfirma</p>
+                        <div class="techfirma-logo">
+                            <span class="tech">TECH</span><span class="firma">FIRMA</span>
+                        </div>
+
                     </div>
                 </div>
 

@@ -28,8 +28,6 @@ const Homecontactus = () => {
                                     <a href="tel:+31203086820">
                                         <button>Bel ons</button>
                                     </a>
-                                    <p>Ons callcenter is 24/7 bereikbar</p>
-                                    <h6>Voor direct contact</h6>
                                 </div>
 
                             </div>
@@ -42,9 +40,6 @@ const Homecontactus = () => {
                                     <a href="mailto:info@techfirma.nl">
                                         <button>Mail ons</button>
                                     </a>
-
-                                    <p>Stuur ons een bericht via e-mail</p>
-                                    <h6>Binnen 24 uur antwoord</h6>
                                 </div>
                             </div>
                             <div className="contactus-inquiry-div">
@@ -55,8 +50,6 @@ const Homecontactus = () => {
                                     <a href="tel:+31 6 49 35 01 76">
                                         <button>App ons</button>
                                     </a>
-                                    <p>Stuur ons een Whatsapp bericht</p>
-                                    <h6>Binneen 4 uur antwoord</h6>
                                 </div>
                             </div>
                         </div>

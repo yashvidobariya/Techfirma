@@ -23,7 +23,9 @@ function Footer() {
                     <div className="footer-content">
                         <div className='logo'>
                             <img src='/Images/logo.png' alt='footer-techfirma' style={{ width: 40 }} />
-                            <p>Techfirma</p>
+                            <div class="techfirma-logo">
+                                <span class="tech">TECH</span><span class="firma">FIRMA</span>
+                            </div>
                         </div>
                         <h3>Over Ons</h3>
                         <p>Bij Techfirma versterken we kleine tot middelgrote bedrijven door innovatieve IT-oplossingen te bieden die groei stimuleren en duurzaamheid garanderen. We zijn toegewijd aan uw succes en streven naar uitmuntendheid in alles wat we doen.</p>

@@ -1,18 +1,22 @@
 [
     {
         "icon": "IoLocationSharp",
-        "heading": "Bezoek Onze Locatie",
-        "content": "Papaverweg 34 - unit B100 , 1032KJ Amsterdam"
+        "heading": "Ons Adres",
+        "content": "1234 Straatnaam, Stad, Land"
     },
     {
         "icon": "BiMailSend",
-        "heading": "Stuur Ons Een Email",
-        "content": "info@techfirma.nl"
+        "heading": "Email Ons",
+        "content": "info@voorbeeld.com"
     },
     {
         "icon": "TbPhoneCall",
-        "heading": "Bel Ons Voor Projecten",
-        "content": "+31 20 308 68 20",
-        "content1": "+31 6 49 35 01 76"
+        "heading": "Bel Ons",
+        "content": "+31 20 123 4567"
+    },
+    {
+        "icon": "FaWhatsapp",
+        "heading": "Bel Ons",
+        "content": "+31 6 49 35 01 76"
     }
 ]
