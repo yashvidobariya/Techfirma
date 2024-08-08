@@ -7,7 +7,7 @@ const Condition = () => {
             <div className='privacy'>
                 <div className="privacy-div">
                     <h1>Algemene Voorwaarden</h1>
-                    <p>Techfirma onderhoudt deze website voor informatie over onze producten en diensten. Voel u vrij om de website te verkennen.</p>
+                    <p>TechFirma onderhoudt deze website voor informatie over onze producten en diensten. Voel u vrij om de website te verkennen.</p>
                 </div>
             </div>
 

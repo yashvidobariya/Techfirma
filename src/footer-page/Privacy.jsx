@@ -7,7 +7,7 @@ const Privacy = () => {
             <div className='privacy'>
                 <div className="privacy-div">
                     <h1>Privacybeleid</h1>
-                    <p>Bedankt dat u ervoor hebt gekozen deel uit te maken van onze gemeenschap bij Techfirma ("Bedrijf", "wij", "ons", "onze"). We zijn toegewijd aan het beschermen van uw persoonlijke informatie en uw recht op privacy.</p>
+                    <p>Bedankt dat u ervoor hebt gekozen deel uit te maken van onze gemeenschap bij TechFirma ("Bedrijf", "wij", "ons", "onze"). We zijn toegewijd aan het beschermen van uw persoonlijke informatie en uw recht op privacy.</p>
 
                 </div>
             </div>
@@ -17,9 +17,9 @@ const Privacy = () => {
                     <div className="privacy-details">
                         <p> </p>
 
-                        <p>Als u vragen of zorgen heeft over deze privacyverklaring of onze praktijken met betrekking tot uw persoonlijke informatie, kunt u contact met ons opnemen via <a href="mailto: contact@Techfirma.com" aria-hidden='contact email'>contact@Techfirma.com</a></p>
+                        <p>Als u vragen of zorgen heeft over deze privacyverklaring of onze praktijken met betrekking tot uw persoonlijke informatie, kunt u contact met ons opnemen via <a href="mailto: contact@Techfirma.com" aria-hidden='contact email'>contact@techfirma.com</a></p>
 
-                        <p>Wanneer u onze website <a href="www.Techfirma.com" aria-hidden='visit website link'>www.Techfirma.com</a> bezoekt (de "Website") en meer in het algemeen gebruik maakt van een van onze diensten (de "Diensten", waaronder de Website), stellen wij het op prijs dat u ons vertrouwt met uw persoonlijke informatie.</p>
+                        <p>Wanneer u onze website <a href="www.Techfirma.com" aria-hidden='visit website link'>www.techfirma.com</a> bezoekt (de "Website") en meer in het algemeen gebruik maakt van een van onze diensten (de "Diensten", waaronder de Website), stellen wij het op prijs dat u ons vertrouwt met uw persoonlijke informatie.</p>
 
                         <p>Wij nemen uw privacy zeer serieus. In deze privacyverklaring proberen we u op de duidelijkst mogelijke manier uit te leggen welke informatie we verzamelen, hoe we deze gebruiken en welke rechten u hebt met betrekking tot deze informatie.</p>
 

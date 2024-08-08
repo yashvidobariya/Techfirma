@@ -28,7 +28,7 @@ function Footer() {
                             </div>
                         </div>
                         <h3>Over Ons</h3>
-                        <p>Bij Techfirma versterken we kleine tot middelgrote bedrijven door innovatieve IT-oplossingen te bieden die groei stimuleren en duurzaamheid garanderen. We zijn toegewijd aan uw succes en streven naar uitmuntendheid in alles wat we doen.</p>
+                        <p>Bij TechFirma versterken we kleine tot middelgrote bedrijven door innovatieve IT-oplossingen te bieden die groei stimuleren en duurzaamheid garanderen. We zijn toegewijd aan uw succes en streven naar uitmuntendheid in alles wat we doen.</p>
 
                         <div className="footer-icons">
                             <div className="footer-social">

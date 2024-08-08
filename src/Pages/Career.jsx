@@ -21,7 +21,7 @@ const Career = () => {
                     viewport={{ once: true }}
                     className="career-uper-section">
                     <h1>Word lid van ons team <br /> en vorm de toekomst</h1>
-                    <p>Bij Techfirma zijn we gepassioneerd door innovatie en excellentie. We zijn op zoek naar getalenteerde individuen om zich bij ons dynamische team aan te sluiten en bij te dragen aan baanbrekende projecten. Als je gedreven wordt door creativiteit en gedijt in een samenwerkingsomgeving, laten we dan samen de toekomst bouwen.</p>
+                    <p>Bij TechFirma zijn we gepassioneerd door innovatie en excellentie. We zijn op zoek naar getalenteerde individuen om zich bij ons dynamische team aan te sluiten en bij te dragen aan baanbrekende projecten. Als je gedreven wordt door creativiteit en gedijt in een samenwerkingsomgeving, laten we dan samen de toekomst bouwen.</p>
 
                 </motion.div>
 
@@ -46,7 +46,7 @@ const Career = () => {
                         viewport={{ once: true }}
                         className="home-service-descitption">
 
-                        <p>Bij Techfirma geloven we dat onze medewerkers ons grootste kapitaal zijn. We zijn toegewijd aan het creëren van een ondersteunende en verrijkende omgeving die groei, welzijn en tevredenheid bevordert. Ontdek de unieke voordelen die we onze teamleden bieden.</p>
+                        <p>Bij TechFirma geloven we dat onze medewerkers ons grootste kapitaal zijn. We zijn toegewijd aan het creëren van een ondersteunende en verrijkende omgeving die groei, welzijn en tevredenheid bevordert. Ontdek de unieke voordelen die we onze teamleden bieden.</p>
                     </motion.div>
                 </div>
 
@@ -125,8 +125,8 @@ const Career = () => {
                 </div>
 
                 <div className="career-uper-section">
-                    <h2>Wil je werken voor <br />Techfirma?</h2>
-                    <p>Sluit je aan bij TechFirma en breng je carrière naar een hoger niveau. We zijn op zoek naar getalenteerde, energieke individuen om deel uit te maken van ons innovatieve team. Bij Techfirma geniet je van een reeks voordelen, waaronder concurrerende salarissen, carrièremogelijkheden en een positieve werkomgeving. We bieden flexibele werktijden, geavanceerde technologie en een ondersteunende teamcultuur. Ervaar professionele groei via onze trainingsprogramma's, werk aan impactvolle projecten en werk samen met een wereldwijd klantenbestand. Met royale vakantietijd en een focus op werk-privébalans is Techfirma de ideale plek voor ambitieuze professionals.</p>
+                    <h2>Wil je werken voor <br />TechFirma?</h2>
+                    <p>Sluit je aan bij TechFirma en breng je carrière naar een hoger niveau. We zijn op zoek naar getalenteerde, energieke individuen om deel uit te maken van ons innovatieve team. Bij TechFirma geniet je van een reeks voordelen, waaronder concurrerende salarissen, carrièremogelijkheden en een positieve werkomgeving. We bieden flexibele werktijden, geavanceerde technologie en een ondersteunende teamcultuur. Ervaar professionele groei via onze trainingsprogramma's, werk aan impactvolle projecten en werk samen met een wereldwijd klantenbestand. Met royale vakantietijd en een focus op werk-privébalans is TechFirma de ideale plek voor ambitieuze professionals.</p>
                 </div>
 
 

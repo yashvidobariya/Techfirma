@@ -3,8 +3,6 @@ import workflowdata from '../../src/Data/workflow.json';
 import { motion } from "framer-motion";
 
 
-
-
 const Workflow = () => {
     return (
         <>

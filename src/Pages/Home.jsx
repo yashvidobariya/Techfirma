@@ -4,28 +4,29 @@ import { motion } from "framer-motion";
 import Workflow from '../home-component/Workflow';
 import Team from '../home-component/Team';
 import Homecontactus from '../home-component/Homecontactus';
-import Homeportfolio from '../home-component/Homeportfolio';
 import Homeservice from '../home-component/Homeservice';
 import { Wave } from "react-animated-text";
 
 const Home = () => {
     const [currentDataIndex, setCurrentDataIndex] = useState(0);
     const data = ["Voor zaken", "om online te verkopen", "voor uw ideeën"];
-    const intervalDuration = 4000;
+    let timer = null;
+    const effectDuration = 20000;
+
+    const changeDataIndex = (currentIndex) => {
+        timer = setTimeout(() => {
+            const newIndex = currentIndex + 1 === data.length ? 0 : currentIndex + 1;
+            setCurrentDataIndex(newIndex);
+            changeDataIndex(newIndex);
+        }, 4000);
+    };
 
     useEffect(() => {
-        // Set up the timer
-        const timer = setInterval(() => {
-            setCurrentDataIndex(prevIndex => {
-                const newIndex = prevIndex + 1 === data.length ? 0 : prevIndex + 1;
-                return newIndex;
-            });
-        }, intervalDuration);
-
-        // Cleanup the timer on component unmount
-        return () => clearInterval(timer);
-    }, [data.length]);
-
+        changeDataIndex(0);
+        return () => {
+            clearTimeout(timer);
+        };
+    }, []);
 
     return (
         <>
@@ -39,7 +40,7 @@ const Home = () => {
                         className="home-info-first">
                         <div className="home-title">
                             <h1>TechFirma
-                                <p><Wave text={data[currentDataIndex]} effect="fadeIn" /></p>
+                                <p><Wave text={data[currentDataIndex]} effect="fadeOut" effectDuration={effectDuration} /></p>
                             </h1>
                         </div>
                         <div className='home-description'>
@@ -51,7 +52,6 @@ const Home = () => {
                             </Link>
                         </div>
                     </motion.div>
-
 
                     <div className="home-info">
                         <div className="home-info-bg">
@@ -82,7 +82,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
             <Workflow />
             <Homeservice />
             <Team />
