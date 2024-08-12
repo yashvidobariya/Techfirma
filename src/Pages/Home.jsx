@@ -40,7 +40,7 @@ const Home = () => {
                         className="home-info-first">
                         <div className="home-title">
                             <h1>TechFirma
-                                <p><Wave text={data[currentDataIndex]} effect="fadeOut" effectDuration={effectDuration} /></p>
+                                <p><Wave text={data[currentDataIndex]} effectDuration={effectDuration} /></p>
                             </h1>
                         </div>
                         <div className='home-description'>
