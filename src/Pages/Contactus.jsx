@@ -136,8 +136,13 @@ const Contactus = () => {
 
             <div className="home-contactus-map">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.1968400286432!2d72.8040676110772!3d21.22404168096082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fea420d763d%3A0xc9967fd58cf761db!2sTechfirma!5e0!3m2!1sen!2sin!4v1716464463906!5m2!1sen!2sin" title="map Techfirma"
-                    frameBorder="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.5917502051266!2d4.905747376941786!3d52.395950745406005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6084f190c2ec5%3A0x895a0df3ecd8d6c9!2sPapaverweg%2034%2C%20unit%20B100%2C%201032%20KJ%20Amsterdam%2C%20Netherlands!5e0!3m2!1sen!2sin!4v1722402307900!5m2!1sen!2sin"
+                    width="600"
+                    height="450"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
             </div>
         </div>
