@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { IoCallSharp } from "react-icons/io5";
-import { ImWhatsapp } from "react-icons/im";
+import { IoChatbubbleEllipses } from "react-icons/io5";
 import { SiMaildotru } from "react-icons/si";
 const Homecontactus = () => {
     return (
@@ -48,7 +48,7 @@ const Homecontactus = () => {
                             </div>
                             <div className="contactus-inquiry-div">
                                 <div className="whatsapp-icon">
-                                    <ImWhatsapp />
+                                    <IoChatbubbleEllipses />
                                 </div>
                                 <div className="button-contactus">
                                     <p>App ons</p>
