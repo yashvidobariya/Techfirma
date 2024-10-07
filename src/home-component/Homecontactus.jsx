@@ -16,7 +16,9 @@ const Homecontactus = () => {
                 className='home-contactus' >
                 <div className="home-contactus-div" >
                     <h2>Neem contact met ons op</h2>
-                    <p>We horen graag over uw project. Neem vandaag contact met ons op om te bespreken hoe we u kunnen helpen uw ideeën tot leven te brengen.</p>
+                    <h6>We horen graag over uw project. Neem vandaag contact met ons op om te
+                        bespreken hoe we u kunnen helpen uw ideeën tot leven te brengen.U kunt ook een bericht achterlaten op ons contactformulier, dan nemen wij contact met u op.
+                    </h6>
 
                     <div className="contactus-inquiry">
                         <div className="contactus-inquiry-flex">
@@ -25,8 +27,9 @@ const Homecontactus = () => {
                                     <IoCallSharp />
                                 </div>
                                 <div className="button-contactus">
+                                    <p>Bel ons</p>
                                     <a href="tel:+31203086820">
-                                        <button>Bel ons</button>
+                                        <button>+31 20 308 68 20</button>
                                     </a>
                                 </div>
 
@@ -37,8 +40,9 @@ const Homecontactus = () => {
                                     <SiMaildotru />
                                 </div>
                                 <div className="button-contactus">
+                                    <p>Mail ons</p>
                                     <a href="mailto:info@techfirma.nl">
-                                        <button>Mail ons</button>
+                                        <button>info@techfirma.nl</button>
                                     </a>
                                 </div>
                             </div>
@@ -47,9 +51,11 @@ const Homecontactus = () => {
                                     <ImWhatsapp />
                                 </div>
                                 <div className="button-contactus">
-                                    <a href="tel:+31 6 49 35 01 76">
-                                        <button>App ons</button>
+                                    <p>App ons</p>
+                                    <a href="https://wa.me/31649350176" target="_blank">
+                                        <button>+31 6 49 35 01 76</button>
                                     </a>
+
                                 </div>
                             </div>
                         </div>

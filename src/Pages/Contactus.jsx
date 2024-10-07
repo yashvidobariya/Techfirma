@@ -15,7 +15,8 @@ const icons = {
 };
 
 const Contactus = () => {
-    const [name, setname] = useState('');
+    const [firstname, setfirstname] = useState('');
+    const [lastname, setlastname] = useState('');
     const [email, setemail] = useState('');
     const [phonenumber, setphonenumber] = useState('');
     const [message, setmessage] = useState('');
@@ -24,7 +25,8 @@ const Contactus = () => {
         e.preventDefault();
         const date = new Date();
         const data = {
-            name,
+            firstname,
+            lastname,
             email,
             phonenumber,
             message,
@@ -33,7 +35,8 @@ const Contactus = () => {
         try {
             const response = await axios.post("https://sheet.best/api/sheets/d046cb77-c9c6-42c6-a055-0d80ddba4768", data);
             console.log(response);
-            setname('');
+            setfirstname('');
+            setlastname('');
             setemail('');
             setphonenumber('');
             alert('Bericht succesvol verzonden!');
@@ -69,7 +72,7 @@ const Contactus = () => {
                         className="form-content"
                     >
                         <div className="form-box">
-                            <h2>Contactgegevens</h2>
+                            <h2>Contactinformatie</h2>
                             <p>We zijn hier om te helpen! Neem contact met ons op via een van de volgende methoden en ons team zal snel bij u terugkomen. Of u nu vragen heeft over onze diensten of ondersteuning nodig heeft, we staan altijd klaar om te helpen.</p>
                             {contactDetails.map((detail, index) => (
                                 <div key={index} className="form-flex">
@@ -77,7 +80,7 @@ const Contactus = () => {
                                         {icons[detail.icon]}
                                     </div>
                                     <div className="form-details">
-                                        <h4>{detail.heading}</h4>
+                                        {/* <h4>{detail.heading}</h4> */}
                                         {detail.icon === "BiMailSend" ? (
                                             <a href={`mailto:${detail.content}`} aria-hidden='true'>{detail.content}</a>
                                         ) : detail.icon === "TbPhoneCall" ? (
@@ -103,14 +106,21 @@ const Contactus = () => {
                         <form onSubmit={handlesubmit}>
                             <div className="form-contactus">
                                 <div className="contactus-title">
-                                    <h2>Neem contact op</h2>
+                                    <h2>Stel ons uw vraag.</h2>
                                     <p>Heeft u een vraag of wilt u uw project bespreken? Stuur ons een bericht en we nemen zo snel mogelijk contact met u op.</p>
 
                                     <div className="contactus-input">
                                         <div className="contactus-input-flex">
                                             <div className="contactus-label">
-                                                <input type="text" placeholder="Uw naam" onChange={(e) => setname(e.target.value)} value={name} required />
+                                                <input type="text" placeholder="Uw naam" onChange={(e) => setfirstname(e.target.value)} value={firstname} required />
                                             </div>
+                                            <div className="contactus-label">
+                                                <input type="text" placeholder="Achternaam" onChange={(e) => setlastname(e.target.value)} value={lastname} required />
+                                            </div>
+                                        </div>
+
+
+                                        <div className="contactus-input-flex">
                                             <div className="contactus-label">
                                                 <input type="email" placeholder="E-mailadres" onChange={(e) => setemail(e.target.value)} value={email} required />
                                             </div>
@@ -118,6 +128,7 @@ const Contactus = () => {
                                                 <input type="text" placeholder="Telefoonnummer" onChange={(e) => setphonenumber(e.target.value)} value={phonenumber} required />
                                             </div>
                                         </div>
+
                                         <div className="contactus-message">
                                             <div className="contactus-textarea">
                                                 <textarea placeholder="Schrijf uw bericht" onChange={(e) => setmessage(e.target.value)} value={message} required />

@@ -1,22 +1,18 @@
 [
     {
         "icon": "IoLocationSharp",
-        "heading": "Ons Adres",
-        "content": "1234 Straatnaam, Stad, Land"
+        "content": "Papaverweg 34, 1032 KJ Amsterdam, Netherlands"
     },
     {
         "icon": "BiMailSend",
-        "heading": "Email Ons",
-        "content": "info@voorbeeld.com"
+        "content": "info@techfirma.nl"
     },
     {
         "icon": "TbPhoneCall",
-        "heading": "Bel Ons",
-        "content": "+31 20 123 4567"
+        "content": "+31 20 308 68 20"
     },
     {
         "icon": "FaWhatsapp",
-        "heading": "Bel Ons",
         "content": "+31 6 49 35 01 76"
     }
 ]

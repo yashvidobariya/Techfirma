@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.24.0",
     "axois": "^0.0.1-security",
+    "build": "^0.1.4",
     "framer-motion": "^11.2.6",
     "ionicons": "^7.4.0",
     "react": "^18.3.1",

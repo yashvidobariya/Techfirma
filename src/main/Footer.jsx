@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { MdOutlineMail, MdOutlinePhoneIphone } from "react-icons/md";
 import { FaRegMap } from "react-icons/fa";
 import { BiLogoLinkedin } from "react-icons/bi";
-import { IoLogoInstagram } from "react-icons/io";
+import { CiViewTimeline } from "react-icons/ci";
 import { IoLogoWhatsapp } from "react-icons/io5";
 
 function Footer() {
@@ -31,14 +31,14 @@ function Footer() {
                         <p>Bij TechFirma versterken we kleine tot middelgrote bedrijven door innovatieve IT-oplossingen te bieden die groei stimuleren en duurzaamheid garanderen. We zijn toegewijd aan uw succes en streven naar uitmuntendheid in alles wat we doen.</p>
 
                         <div className="footer-icons">
-                            <div className="footer-social">
+                            {/* <div className="footer-social">
                                 <div className="footer-col">
                                     <a href='https://www.linkedin.com/' ><BiLogoLinkedin /></a>
                                 </div>
                                 <div className="footer-col">
                                     <a href='https://www.instagram.com/' > <IoLogoInstagram /></a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
@@ -85,6 +85,10 @@ function Footer() {
                                     Contact
                                 </Link>
                             </p>
+                            <h4>Openingstijden</h4>
+                            <p className='footer-time'>Maandag t/m vrijdag:<br />
+                                9:00 – 17:00
+                                Buiten deze <br />tijden kunt u ons mailen.</p>
                         </div>
                     </div>
 
@@ -118,8 +122,6 @@ function Footer() {
                             </div>
 
                         </div>
-
-
                         <div className="footer-info">
                             <div className="footer-col">
                                 <FaRegMap />
@@ -127,6 +129,15 @@ function Footer() {
                             <div className="footer-email-content">
                                 <a href='#' aria-hidden='true'>Papaverweg 34 - unit B100<br />
                                     1032KJ Amsterdam
+                                </a>
+                            </div>
+                        </div>
+                        <div className="footer-info">
+                            <div className="footer-col">
+                                <CiViewTimeline />
+                            </div>
+                            <div className="footer-email-content">
+                                <a href='#' aria-hidden='true'>KVK : 94442371<br />
                                 </a>
                             </div>
                         </div>

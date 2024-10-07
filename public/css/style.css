@@ -195,6 +195,11 @@ body {
     line-height: 25px;
 }
 
+.footer-content h4 {
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+}
+
 .footer-main h3 {
     color: var(--text-white);
     font-weight: 800;
@@ -202,6 +207,7 @@ body {
     margin-top: 20px;
     font-size: 23px;
 }
+
 
 .footer .active {
     color: var(--font-color);
@@ -332,8 +338,6 @@ body {
 }
 
 
-
-
 .home-info-bg {
     position: relative;
     width: 100%;
@@ -349,7 +353,6 @@ body {
     font-weight: bold;
     line-height: 1.5;
 }
-
 
 .home-title p {
     transition: ease 0.9;
@@ -773,17 +776,16 @@ body {
     color: var(--font-color);
 }
 
-/* .home-contactus-div {
+.home-contactus-div {
     background-image: url('/Images/shreesoftic.png');
     background-position: 0 0;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 740px 1000px;
-    max-width: 600px;
     padding: 60px;
     justify-content: center;
-} */
+}
 
 .home-contactus-div h2 {
     font-size: 45px;
@@ -857,6 +859,14 @@ body {
     margin: 20px 0;
 }
 
+.home-contactus-div h6 {
+    font-size: 16px;
+    width: 1200px;
+    margin: 20px 0;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+}
+
 .button-contactus button {
     cursor: pointer;
     padding: 5px 40px;
@@ -867,7 +877,8 @@ body {
 }
 
 .button-contactus p {
-    margin: 15px 0 5px 0;
+    margin: 15px 0 10px 0;
+    font-size: 24px;
 }
 
 .button-contactus h6 {
@@ -1447,7 +1458,7 @@ body {
 
 .form-contactus {
     width: 100%;
-    margin: 10% 0;
+    margin: 5% 0;
 }
 
 .contactus-title h2 {
@@ -1492,16 +1503,19 @@ body {
     margin: 20px 0;
     width: 100%;
     gap: 20px;
-    justify-content: space-between;
+}
+
+.contactus-label {
+    flex: 1
 }
 
 .contactus-label input {
-    padding: 15px 50px;
+    width: 92%;
+    padding: 15px 20px;
     margin: 10px 0;
     border-radius: 10px;
     background-color: #f4f9fc;
     border: none;
-
 }
 
 .contactus-label input:focus,
@@ -1514,7 +1528,7 @@ body {
 }
 
 .contactus-textarea textarea {
-    width: 98%;
+    width: 99%;
     height: 150px;
     border-radius: 10px;
     background-color: #f4f9fc;

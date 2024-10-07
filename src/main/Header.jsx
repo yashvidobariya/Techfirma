@@ -93,7 +93,7 @@ const Header = () => {
                             onClick={removeNavbar}
                             className={isActive('/contactus') ? 'active' : ''}
                         >
-                            Neem contact met ons op
+                            Contact
                         </Link>
                     </div>
                     <div className={`closenavbar ${navbarActive ? 'visible' : 'hidden'}`} onClick={removeNavbar}>
