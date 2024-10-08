@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { GrFormClose } from 'react-icons/gr';
 import { HiMenu } from 'react-icons/hi';
 
@@ -8,6 +8,7 @@ const Header = () => {
     const [headerClass, setHeaderClass] = useState('header');
     const location = useLocation();
     const [activeLink, setActiveLink] = useState(location.pathname);
+    const navigate = useNavigate();
 
     useEffect(() => {
         setActiveLink(location.pathname);
@@ -45,12 +46,16 @@ const Header = () => {
         return false;
     };
 
+    const handlehome = () => {
+        navigate('/');
+    }
+
     return (
         <div className='header-container'>
             <div className={headerClass}>
                 <div className='upper-header'>
                     <div className='logo'>
-                        <img src='/Images/logo.png' alt='header-Techfirma' aria-hidden='true' style={{ width: 50 }} />
+                        <img src='/Images/logo.png' alt='header-Techfirma' aria-hidden='true' style={{ width: 50 }} onClick={handlehome} />
                         <div class="techfirma-logo">
                             <span class="tech">TECH</span><span class="firma">FIRMA</span>
                         </div>
