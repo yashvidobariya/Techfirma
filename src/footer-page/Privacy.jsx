@@ -188,17 +188,15 @@ const Privacy = () => {
                         </p>
                     </div>
 
-                    {/* <div className="privacy-details-que">
+                    <div className="privacy-details-que">
                         <h3 className='privacy-title'>11. Hoe kunt u contact met ons opnemen over deze verklaring?</h3>
 
                         <p>Als u vragen of opmerkingen heeft over deze verklaring, kunt u ons e-mailen op <a href="mailto: contact@Techfirma.com" aria-hidden='contact email'>contact@Techfirma.com</a></p>
 
                         <p>Techfirma </p>
-                        <p>4e verdieping, 20, Shree Nilkanth Business
-                            hub</p>
-                        <p>Causeway Rd, tegenover D-Mart,</p>
-                        <p>Katargam, Surat, Gujarat 395004.</p>
-                    </div> */}
+                        <p>  Papaverweg 34, unit B100</p>
+                        <p> 1032 KJ Amsterdam, Netherlands</p>
+                    </div>
 
                     <div className="privacy-details-que">
                         <h3 className='privacy-title'>3. Wordt uw informatie met iemand gedeeld?</h3>
