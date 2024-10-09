@@ -2662,6 +2662,11 @@ body {
 
 @media (max-width: 1200px) {
 
+    .home-contactus-div h6 {
+
+        width: 700px;
+    }
+
     .home-title h1 {
         font-size: 30px;
     }
