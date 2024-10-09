@@ -87,8 +87,8 @@ function Footer() {
                             </p>
                             <h4>Openingstijden</h4>
                             <p className='footer-time'>Maandag t/m vrijdag:<br />
-                                9:00 – 17:00
-                                Buiten deze <br />tijden kunt u ons mailen.</p>
+                                9:00 – 17:00<br />
+                                Buiten deze tijden kunt u ons mailen.</p>
                         </div>
                     </div>
 
