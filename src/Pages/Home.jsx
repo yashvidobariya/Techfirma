@@ -9,7 +9,7 @@ import { Wave } from "react-animated-text";
 
 const Home = () => {
     const [currentDataIndex, setCurrentDataIndex] = useState(0);
-    const data = ["Voor zaken", "om online te verkopen", "voor uw ideeën"];
+    const data = ["voor zaken", "om online te verkopen", "voor uw ideeën"];
     let timer = null;
     const effectDuration = 20000;
 
